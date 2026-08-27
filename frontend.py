@@ -10,7 +10,7 @@ st.markdown("Enter you details below:")
 
 # input fields
 
-age=st.number_input("Age",min_value=119)
+age=st.number_input("Age",max_value=119)
 weight=st.number_input("Weight (kgs)",min_value=1.0)
 height=st.number_input("Height (m)",min_value=0.5, max_value=2.5)
 income_lpa=st.number_input("Income in LPA",min_value=0.1)
